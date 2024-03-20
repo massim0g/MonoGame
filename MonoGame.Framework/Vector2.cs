@@ -568,6 +568,14 @@ namespace Microsoft.Xna.Framework
         }
 
         /// <summary>
+        /// Sets the members of this <see cref="Vector2"/>
+        /// </summary>
+        public void Set(float x, float y) {
+            X = x;
+            Y = y;
+        }
+
+        /// <summary>
         /// Creates a new <see cref="Vector2"/> that contains members from another vector rounded towards negative infinity.
         /// </summary>
         /// <param name="value">Source <see cref="Vector2"/>.</param>
